@@ -2,7 +2,7 @@ from selene.support.shared import browser
 import os
 from selene import have
 
-
+проверка
 def test_registr():
     browser.open('/automation-practice-form')
     browser.element('#firstName').type('Mariya')
